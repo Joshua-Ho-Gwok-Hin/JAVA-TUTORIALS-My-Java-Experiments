@@ -5,9 +5,11 @@ public class MethodReferencing {
     public static void main(String[] args) {
 
         String str = "Today is a holiday";
+        Dinosaur pillo = new Dinosaur();
 
         NoParamVoid functionalInterfaceOne = System.out::println;
         NoParamVoid lambdaOne = ()-> System.out.println();
+        NoParamVoid fIOne = pillo::instanceOne;
 
         StringParamVoid functionalInterfaceTwo = System.out::println;
         StringParamVoid lambdaTwo = e -> System.out.println(e);
@@ -15,7 +17,6 @@ public class MethodReferencing {
         NoParamInt functionalInterfaceThree = str::length;
         NoParamInt lambdaThree = () -> str.length();
 
-        Dinosaur pillo = new Dinosaur();
 
         DinoParamInt dinoParamInt = Dinosaur::giveMeNumberThree;
         DinoParamInt dinoParamInt1 = pillo::giveMeNumberThree;
