@@ -11,19 +11,21 @@ public class MainIntUser {
             }
         };
 
-        /*
+//        Incompatible types: User is not convertible to String
+//        intUserFI = john::intString;
 
-        intUserFI = john::intString;
-        intUserFI = john::voidEmpty;
-        intUserFI = john::intEmpty;
-        intUserFI = john::intString;
-        intUserFI = john::intBooleanString;
+//        Cannot resolve method 'methodName'
+//        intUserFI = john::voidEmpty;
+//        intUserFI = john::intEmpty;
+//        intUserFI = john::intBooleanString;
 
-        intUserFI = User::voidEmpty;
-        intUserFI = User::voidString;
-        intUserFI = User::intString;
-        intUserFI = User::intBooleanString;
-        */
+//        Non-static method cannot be referenced from a static content
+//        intUserFI = User::voidString;
+//        intUserFI = User::intString;
+//        intUserFI = User::intBooleanString;
+
+//        Bad return type in method referencing: cannot convert void to int.
+//        intUserFI = User::voidEmpty;
 
     }
 }
