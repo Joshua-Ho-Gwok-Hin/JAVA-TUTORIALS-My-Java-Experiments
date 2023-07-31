@@ -1,4 +1,4 @@
-public class VoidStringMain {
+public class MainVoidString {
     public static void main(String[] args) {
         User john = new User();
 
@@ -29,8 +29,11 @@ public class VoidStringMain {
             }
         };
 
+/*
+        Following method-referencing have compilation error. Cannot resolve method.
         voidStringFI = john::voidEmpty;
         voidStringFI = john::intEmpty;
         voidStringFI = john::intBooleanString;
+*/
     }
 }

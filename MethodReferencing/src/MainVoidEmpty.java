@@ -1,4 +1,4 @@
-public class VoidEmptyMain {
+public class MainVoidEmpty {
     public static void main(String[] args) {
         User john = new User();
         VoidEmpty voidEmptyFI;
