@@ -5,3 +5,4 @@ interface IntEmpty {int intEmpty();}
 interface IntString {int intString(String s);}
 interface IntBooleanString{ int intBooleanString(boolean b, String s);}
 interface IntUser {int intUser(User u);}
+interface UserUser {User userUser(User u);}

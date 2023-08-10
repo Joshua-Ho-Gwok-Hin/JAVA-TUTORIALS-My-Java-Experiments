@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Custom Funtional Interface/Custom Funtional Interface.iml" filepath="$PROJECT_DIR$/Custom Funtional Interface/Custom Funtional Interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" filepath="$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lambda Expressions/Lambda Expressions.iml" filepath="$PROJECT_DIR$/Lambda Expressions/Lambda Expressions.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MethodReferencing/MethodReferencing.iml" filepath="$PROJECT_DIR$/MethodReferencing/MethodReferencing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Method Referencing/Method Referencing.iml" filepath="$PROJECT_DIR$/Method Referencing/Method Referencing.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/My Java Course.iml" filepath="$PROJECT_DIR$/.idea/My Java Course.iml" />
     </modules>
   </component>

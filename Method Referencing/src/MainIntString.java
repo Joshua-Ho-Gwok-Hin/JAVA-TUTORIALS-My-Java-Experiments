@@ -11,8 +11,10 @@ public class MainIntString {
             }
         };
 
-/*
-        Following method-referencing have compilation error: Bad return type, cannot convert void to int
+        intStringFI = String::length;
+
+
+//        Following method-referencing have compilation error: Bad return type, cannot convert void to int
         intStringFI = john::voidString;
         intStringFI = System.out::println;
         Following method compilation error: Cannot resolve method

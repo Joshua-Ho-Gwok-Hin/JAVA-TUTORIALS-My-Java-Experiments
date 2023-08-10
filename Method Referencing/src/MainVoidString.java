@@ -29,6 +29,8 @@ public class MainVoidString {
             }
         };
 
+        voidStringFI = String::toString;
+
 /*
         Following method-referencing have compilation error. Cannot resolve method.
         voidStringFI = john::voidEmpty;
