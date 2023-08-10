@@ -14,7 +14,7 @@ public class MainIntUser {
                 return u.intEmpty();
             }
         };
-
+/*
         intUserFI = User::staticVoidEmpty;
         intUserFI = john::staticVoidEmpty;
         intUserFI = String::indexOf;
@@ -43,6 +43,8 @@ public class MainIntUser {
 
 //        Bad return type in method referencing: cannot convert void to int.
 //        intUserFI = User::voidEmpty;
+
+ */
 
     }
 }

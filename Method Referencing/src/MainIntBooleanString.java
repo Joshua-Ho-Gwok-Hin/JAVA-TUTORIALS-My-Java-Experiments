@@ -12,6 +12,7 @@ public class MainIntBooleanString {
             }
         };
 
+        /*
         intBooleanStringFI = john::voidEmpty;
         intBooleanStringFI = john::voidString;
         intBooleanStringFI = john::intEmpty;
@@ -21,5 +22,7 @@ public class MainIntBooleanString {
         intBooleanStringFI = System.out::println;
         intBooleanStringFI = (b, s) -> System.out.println(s);
         intBooleanStringFI = User::intBooleanString;
+
+         */
     }
 }
