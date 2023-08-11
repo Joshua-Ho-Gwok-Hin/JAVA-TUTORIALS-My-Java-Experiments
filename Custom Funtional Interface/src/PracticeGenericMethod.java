@@ -22,10 +22,9 @@ public class PracticeGenericMethod {
 
         anotherMethod(
                 myArrayList,
-                s -> s.length() > 3,
+                s -> s.equals("Hello"),
                 String::length,
                 System.out::println);
-
     }
 
     public static <T, U, R> void generateResults(Iterable<T> sources, Predicate<T> conditions, Function<T, R> applying, Consumer<R> accepting) {

@@ -3,6 +3,8 @@ import java.util.function.Predicate;
 
 public class Main {
     public static void main(String[] args) {
+        Integer one = 1;
+
         System.out.println("Hello world!");
         Predicate<Integer> integerPredicate = integer -> integer % 2 == 0;
         BiPredicate<Integer, Integer> biPredicate = (i, j) -> i %2 == 0 && i>0;
