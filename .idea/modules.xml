@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Collection and Collections/Collection and Collections.iml" filepath="$PROJECT_DIR$/Collection and Collections/Collection and Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/Custom Funtional Interface/Custom Funtional Interface.iml" filepath="$PROJECT_DIR$/Custom Funtional Interface/Custom Funtional Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" filepath="$PROJECT_DIR$/Functional Interfaces/Functional Interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/HashCode and Equals/HashCode and Equals.iml" filepath="$PROJECT_DIR$/HashCode and Equals/HashCode and Equals.iml" />
